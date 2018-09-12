@@ -60,4 +60,8 @@ public class WakeLockAcitvity extends Activity {
         Toast.makeText(this, "Snake is moving", Toast.LENGTH_SHORT).show();
     }
 
+
+    public void hideSnake(){
+        Toast.makeText(this, "Snake is hiding", Toast.LENGTH_SHORT).show();
+    }
 }
